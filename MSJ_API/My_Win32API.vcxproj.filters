@@ -1,0 +1,535 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{ae91adcd-e9d6-40a9-88f6-72057dfb4b80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy">
+      <UniqueIdentifier>{bf4c1be0-aa46-4de5-ae8a-61ed2c4ad778}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy\Scene">
+      <UniqueIdentifier>{ccca67b8-1cbe-4387-958e-cce0a63232b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Util_APICore">
+      <UniqueIdentifier>{13b8bccf-8a3f-4a84-bb3a-71dcfebfbfed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Util_APICore\Header">
+      <UniqueIdentifier>{d5bb4119-22c9-4e13-bebb-7bbbcb691e93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Util_APICore\Manager">
+      <UniqueIdentifier>{df778996-d09d-4a77-aceb-f4492660f3d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STD">
+      <UniqueIdentifier>{b222c8cd-ca3b-4c62-b81b-1630dbb6d094}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Helper">
+      <UniqueIdentifier>{16f97992-cbb4-4b25-9bc3-f5d3662f7834}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy\Scene\03.Global">
+      <UniqueIdentifier>{6c06f081-d3a9-437e-8f49-72e452fd2d88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy\Actor_ObjBase">
+      <UniqueIdentifier>{cb412740-53f6-4b30-bdc5-16df13886602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy\Actor_ObjBase\01.Base">
+      <UniqueIdentifier>{7342a896-2180-4c65-a5ac-1a7cea080e5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy\Actor_ObjBase\02.Sub">
+      <UniqueIdentifier>{4c24a839-d66c-49cc-bcf0-2c8de8138eea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy\Actor_ObjBase\02.Sub\01.Render">
+      <UniqueIdentifier>{878d3ec1-a120-49d1-a39e-00aca0edbc43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy\Actor_ObjBase\02.Sub\02.Collision">
+      <UniqueIdentifier>{056d4ac9-d2e2-48fe-b00d-584bca52fd3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy\Scene\01.Scene_Manager">
+      <UniqueIdentifier>{6946fbb8-c25a-4485-8ff6-3e6b61b578d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy\Actor_ObjBase\02.Sub\01.Render\01.Base">
+      <UniqueIdentifier>{085c751c-c55a-451f-bf74-dd8e95e24a42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy\Actor_ObjBase\02.Sub\01.Render\03.Single">
+      <UniqueIdentifier>{dd47b6b9-c752-4735-8e11-4dfc820fdd76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy\Actor_ObjBase\02.Sub\01.Render\04Animation">
+      <UniqueIdentifier>{9369cc82-b6bb-484d-8535-b68a4a37a622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy\Actor_ObjBase\02.Sub\01.Render\02.Object">
+      <UniqueIdentifier>{578c4d27-c36d-45e6-94c5-7e7ca916d947}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy\Scene\02.Manager">
+      <UniqueIdentifier>{3539859b-db40-4dc2-87fe-05e74461a101}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy\Scene\04.Sub_Scene">
+      <UniqueIdentifier>{195a3883-ce12-4429-9e17-6af6efd2a51e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy\Scene\04.Sub_Scene\Play_Scene">
+      <UniqueIdentifier>{dfcbdc39-3cbf-44c9-b881-2d8e9706e141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy\Scene\04.Sub_Scene\Play_Scene\Object">
+      <UniqueIdentifier>{c75b80ea-d2fe-47c2-ac67-5d11026399bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy\Scene\04.Sub_Scene\Play_Scene\Stage">
+      <UniqueIdentifier>{dc7f03c4-96c7-428a-aac0-1b3dbf88f868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy\Scene\04.Sub_Scene\Title_Scene">
+      <UniqueIdentifier>{277c2a46-d6e8-49be-a32a-20eac081f7c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy\Scene\04.Sub_Scene\Title_Scene\Stage">
+      <UniqueIdentifier>{a5c1108f-3a61-43c4-b4a9-0815f0f751fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy\Scene\04.Sub_Scene\Title_Scene\Object">
+      <UniqueIdentifier>{cf269894-575d-4ad4-a29e-41512b878d7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy\Actor_ObjBase\02.Sub\03.Editor">
+      <UniqueIdentifier>{1d7844bc-3695-4096-a669-a5644e6208b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy\Actor_ObjBase\02.Sub\01.Render\05.TileMap">
+      <UniqueIdentifier>{0b4e423c-84c9-470d-8f97-428c37af8b28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Util_APICore\Manager\Input">
+      <UniqueIdentifier>{2d58f029-1564-41e3-a72b-48f772e34484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Util_APICore\Manager\InputOutput">
+      <UniqueIdentifier>{4798a1ea-5c78-4249-a011-0aac3f4b9b62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Util_APICore\Manager\Resource">
+      <UniqueIdentifier>{5947900b-dacc-4a2e-8ca0-c6a7c5042c11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Util_APICore\Manager\Timer">
+      <UniqueIdentifier>{921e800a-5336-4bf4-bf9f-518d007d3856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy\Actor_ObjBase\02.Sub\01.Render\06.IsometricMap">
+      <UniqueIdentifier>{d6d7d734-f74d-4b59-befa-a9a210d9a3ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy\Scene\04.Sub_Scene\Editor_Scene">
+      <UniqueIdentifier>{ba897438-9938-479a-9352-fb702b9b36e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy\Scene\04.Sub_Scene\Play_Scene\Object\BackGorund">
+      <UniqueIdentifier>{0ba23796-a2bc-4dd9-a715-7cf752173178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Util_APICore\Manager\Resource\Sound">
+      <UniqueIdentifier>{be8513cd-9647-40f5-8f57-4b1db5c10935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Util_APICore\Manager\Resource\Image">
+      <UniqueIdentifier>{59eab6a7-1188-4114-a474-af693fbd68ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy\Scene\04.Sub_Scene\Play_Scene\1P">
+      <UniqueIdentifier>{4b0eeb75-a4d0-4f16-8294-5d1ec12bad0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy\Scene\04.Sub_Scene\Play_Scene\2P">
+      <UniqueIdentifier>{1a767f74-1c96-4358-9d82-776aa87168c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy\Scene\04.Sub_Scene\Select_Scene">
+      <UniqueIdentifier>{b63c065b-c698-4fec-8e65-25ebe25b3799}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy\Scene\04.Sub_Scene\Select_Scene\1P">
+      <UniqueIdentifier>{adb27741-0afd-4617-a9b8-df2abeea740d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy\Scene\04.Sub_Scene\Select_Scene\2P">
+      <UniqueIdentifier>{d7278fdf-e600-4382-b5d8-952a67b473ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy\Scene\04.Sub_Scene\Select_Scene\1P\Stage">
+      <UniqueIdentifier>{267fbd7c-0975-4ca9-a41c-161dc208f72b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy\Scene\04.Sub_Scene\Select_Scene\1P\Object">
+      <UniqueIdentifier>{28274353-bf42-41a0-8a64-e3ef857f27df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy\Scene\04.Sub_Scene\Select_Scene\2P\Stage">
+      <UniqueIdentifier>{6b92045e-348d-4ff1-ae5b-3df2aa79297c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy\Scene\04.Sub_Scene\Select_Scene\2P\Object">
+      <UniqueIdentifier>{a2a69ceb-af7d-4705-8bc9-a4a8ea13373f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy\Scene\03.Global\Mouse">
+      <UniqueIdentifier>{bcbc1407-023f-4ba3-87a5-1ff1b4d8577c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy\Scene\02.Manager\ItemManager">
+      <UniqueIdentifier>{9cceada5-b079-4cdc-a181-0d9c8995572d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy\Scene\04.Sub_Scene\Play_Scene\Object\InGameTimer">
+      <UniqueIdentifier>{b6513b02-04d8-4297-b126-45cfcfd42056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy\Scene\04.Sub_Scene\Play_Scene\Object\InGameActor">
+      <UniqueIdentifier>{88d56474-5809-4f6a-a8af-d737b0e636e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy\Scene\04.Sub_Scene\Play_Scene\Object\InGameWeapon">
+      <UniqueIdentifier>{83e38db5-4580-4bdf-af9a-a353eb2117ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Obj_Hierarchy\Scene\04.Sub_Scene\Play_Scene\Object\HPBar">
+      <UniqueIdentifier>{0c016bfc-6807-4afb-97ac-d93043e3c23e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="My_Win32API.h">
+      <Filter>STD</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>STD</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>STD</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>STD</Filter>
+    </ClInclude>
+    <ClInclude Include="Util_Core.h">
+      <Filter>01.Util_APICore</Filter>
+    </ClInclude>
+    <ClInclude Include="TAssert.h">
+      <Filter>01.Util_APICore\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>01.Util_APICore\Manager\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Render_Vector.h">
+      <Filter>01.Util_APICore\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>01.Util_APICore\Manager\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="MainSceneState.h">
+      <Filter>02.Obj_Hierarchy\Scene\01.Scene_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorObjBase.h">
+      <Filter>02.Obj_Hierarchy\Actor_ObjBase\01.Base</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerCal.h">
+      <Filter>03.Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectCollision.h">
+      <Filter>02.Obj_Hierarchy\Actor_ObjBase\02.Sub\02.Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjNameBase.h">
+      <Filter>02.Obj_Hierarchy\Actor_ObjBase\01.Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjUpdateBase.h">
+      <Filter>02.Obj_Hierarchy\Actor_ObjBase\01.Base</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayStage.h">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Play_Scene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleStage.h">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Title_Scene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleRenderer.h">
+      <Filter>02.Obj_Hierarchy\Actor_ObjBase\02.Sub\01.Render\03.Single</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationRenderer.h">
+      <Filter>02.Obj_Hierarchy\Actor_ObjBase\02.Sub\01.Render\04Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectRenderer.h">
+      <Filter>02.Obj_Hierarchy\Actor_ObjBase\02.Sub\01.Render\02.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectSubBase.h">
+      <Filter>02.Obj_Hierarchy\Actor_ObjBase\02.Sub\01.Render\01.Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>01.Util_APICore\Manager\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderManager.h">
+      <Filter>02.Obj_Hierarchy\Scene\02.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCoreMath.h">
+      <Filter>01.Util_APICore\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>02.Obj_Hierarchy\Scene\02.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelColGround.h">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Play_Scene\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorTileMap.h">
+      <Filter>02.Obj_Hierarchy\Actor_ObjBase\02.Sub\03.Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMapRenderer.h">
+      <Filter>02.Obj_Hierarchy\Actor_ObjBase\02.Sub\01.Render\05.TileMap</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryReadStream.h">
+      <Filter>01.Util_APICore\Manager\InputOutput</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryWriteStream.h">
+      <Filter>01.Util_APICore\Manager\InputOutput</Filter>
+    </ClInclude>
+    <ClInclude Include="FileStream.h">
+      <Filter>01.Util_APICore\Manager\InputOutput</Filter>
+    </ClInclude>
+    <ClInclude Include="IsometricMapRenderer.h">
+      <Filter>02.Obj_Hierarchy\Actor_ObjBase\02.Sub\01.Render\06.IsometricMap</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorStage.h">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Editor_Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleBackground.h">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Title_Scene\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleButton.h">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Title_Scene\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayBackGround.h">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Play_Scene\Object\BackGorund</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundSource.h">
+      <Filter>01.Util_APICore\Manager\Resource\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundControl.h">
+      <Filter>01.Util_APICore\Manager\Resource\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectImage.h">
+      <Filter>01.Util_APICore\Manager\Resource\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectMultiSprite.h">
+      <Filter>01.Util_APICore\Manager\Resource\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectSprite.h">
+      <Filter>01.Util_APICore\Manager\Resource\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjTile.h">
+      <Filter>02.Obj_Hierarchy\Actor_ObjBase\02.Sub\01.Render\05.TileMap</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectStage1P.h">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Select_Scene\1P\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectStage2P.h">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Select_Scene\2P\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectBackground1P.h">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Select_Scene\1P\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectBackgorund2P.h">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Select_Scene\2P\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMouseCursor.h">
+      <Filter>02.Obj_Hierarchy\Scene\03.Global\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>02.Obj_Hierarchy\Scene\02.Manager\ItemManager</Filter>
+    </ClInclude>
+    <ClInclude Include="HPBar.h">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Play_Scene\Object\HPBar</Filter>
+    </ClInclude>
+    <ClInclude Include="InGameTimer.h">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Play_Scene\Object\InGameTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Play_Scene\Object\InGameActor</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Play_Scene\Object\InGameActor</Filter>
+    </ClInclude>
+    <ClInclude Include="Bubble.h">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Play_Scene\Object\InGameWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Play_Scene\Object\InGameWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Select_Character1P.h">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Select_Scene\1P\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterMini.h">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Play_Scene\Object\InGameActor</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorExit.h">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Editor_Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>STD</Filter>
+    </ClCompile>
+    <ClCompile Include="My_Win32API.cpp">
+      <Filter>STD</Filter>
+    </ClCompile>
+    <ClCompile Include="Util_Core.cpp">
+      <Filter>01.Util_APICore</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>01.Util_APICore\Manager\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Util_Core_UserInit.cpp">
+      <Filter>01.Util_APICore</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>01.Util_APICore\Manager\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="MainSceneState.cpp">
+      <Filter>02.Obj_Hierarchy\Scene\01.Scene_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorObjBase.cpp">
+      <Filter>02.Obj_Hierarchy\Actor_ObjBase\01.Base</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerCal.cpp">
+      <Filter>03.Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectCollision.cpp">
+      <Filter>02.Obj_Hierarchy\Actor_ObjBase\02.Sub\02.Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjNameBase.cpp">
+      <Filter>02.Obj_Hierarchy\Actor_ObjBase\01.Base</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjUpdateBase.cpp">
+      <Filter>02.Obj_Hierarchy\Actor_ObjBase\01.Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Util_Core_Progress.cpp">
+      <Filter>01.Util_APICore</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayStage.cpp">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Play_Scene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleStage.cpp">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Title_Scene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleRenderer.cpp">
+      <Filter>02.Obj_Hierarchy\Actor_ObjBase\02.Sub\01.Render\03.Single</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationRenderer.cpp">
+      <Filter>02.Obj_Hierarchy\Actor_ObjBase\02.Sub\01.Render\04Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectRenderer.cpp">
+      <Filter>02.Obj_Hierarchy\Actor_ObjBase\02.Sub\01.Render\02.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectSubBase.cpp">
+      <Filter>02.Obj_Hierarchy\Actor_ObjBase\02.Sub\01.Render\01.Base</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>01.Util_APICore\Manager\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Render_Vector.cpp">
+      <Filter>01.Util_APICore\Header</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderManager.cpp">
+      <Filter>02.Obj_Hierarchy\Scene\02.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCoreMath.cpp">
+      <Filter>01.Util_APICore\Header</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>02.Obj_Hierarchy\Scene\02.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelColGround.cpp">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Play_Scene\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorTileMap.cpp">
+      <Filter>02.Obj_Hierarchy\Actor_ObjBase\02.Sub\03.Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMapRenderer.cpp">
+      <Filter>02.Obj_Hierarchy\Actor_ObjBase\02.Sub\01.Render\05.TileMap</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryReadStream.cpp">
+      <Filter>01.Util_APICore\Manager\InputOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryWriteStream.cpp">
+      <Filter>01.Util_APICore\Manager\InputOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="FileStream.cpp">
+      <Filter>01.Util_APICore\Manager\InputOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="IsometricMapRenderer.cpp">
+      <Filter>02.Obj_Hierarchy\Actor_ObjBase\02.Sub\01.Render\06.IsometricMap</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorStage.cpp">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Editor_Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleBackground.cpp">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Title_Scene\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleButton.cpp">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Title_Scene\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayBackGround.cpp">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Play_Scene\Object\BackGorund</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundSource.cpp">
+      <Filter>01.Util_APICore\Manager\Resource\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundControl.cpp">
+      <Filter>01.Util_APICore\Manager\Resource\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectImage.cpp">
+      <Filter>01.Util_APICore\Manager\Resource\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectMultiSprite.cpp">
+      <Filter>01.Util_APICore\Manager\Resource\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectSprite.cpp">
+      <Filter>01.Util_APICore\Manager\Resource\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjTile.cpp">
+      <Filter>02.Obj_Hierarchy\Actor_ObjBase\02.Sub\01.Render\05.TileMap</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectStage1P.cpp">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Select_Scene\1P\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectStage2P.cpp">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Select_Scene\2P\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectBackground1P.cpp">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Select_Scene\1P\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectBackgorund2P.cpp">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Select_Scene\2P\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMouseCursor.cpp">
+      <Filter>02.Obj_Hierarchy\Scene\03.Global\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>02.Obj_Hierarchy\Scene\02.Manager\ItemManager</Filter>
+    </ClCompile>
+    <ClCompile Include="HPBar.cpp">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Play_Scene\Object\HPBar</Filter>
+    </ClCompile>
+    <ClCompile Include="InGameTimer.cpp">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Play_Scene\Object\InGameTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Play_Scene\Object\InGameActor</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Play_Scene\Object\InGameActor</Filter>
+    </ClCompile>
+    <ClCompile Include="Player_FSMFunc.cpp">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Play_Scene\Object\InGameActor</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster_StateFunc.cpp">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Play_Scene\Object\InGameActor</Filter>
+    </ClCompile>
+    <ClCompile Include="Bubble.cpp">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Play_Scene\Object\InGameWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Bubble_StateFunc.cpp">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Play_Scene\Object\InGameWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Play_Scene\Object\InGameWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Select_Character1P.cpp">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Select_Scene\1P\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterMini.cpp">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Play_Scene\Object\InGameActor</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterMini_StateFunc.cpp">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Play_Scene\Object\InGameActor</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorExit.cpp">
+      <Filter>02.Obj_Hierarchy\Scene\04.Sub_Scene\Editor_Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="My_Win32API.ico">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>Resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="My_Win32API.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
